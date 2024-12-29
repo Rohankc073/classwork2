@@ -1,4 +1,4 @@
-import 'package:classwork2/core/app_theme.dart';
+import 'package:classwork2/core/app_theme/app_theme.dart';
 import 'package:classwork2/view/dashboard.dart';
 import 'package:flutter/material.dart';
 
