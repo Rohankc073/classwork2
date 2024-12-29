@@ -94,7 +94,7 @@ class _CircleAreaScreenState extends State<AreaOfCircleView> {
                 Container(
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
-                    color: Colors.pink.shade50,
+                    color: Colors.blue.shade50,
                     borderRadius: BorderRadius.circular(15),
                     boxShadow: [
                       BoxShadow(

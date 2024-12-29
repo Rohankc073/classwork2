@@ -126,15 +126,8 @@ class _SimpleInterestScreenState extends State<SimpleInterestView> {
                 Container(
                   padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
-                    color: Colors.pink.shade50,
+                    color: Colors.blue.shade50,
                     borderRadius: BorderRadius.circular(12),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.pink.withOpacity(0.3),
-                        blurRadius: 5,
-                        offset: const Offset(0, 3),
-                      ),
-                    ],
                   ),
                   child: Column(
                     children: [
@@ -143,7 +136,7 @@ class _SimpleInterestScreenState extends State<SimpleInterestView> {
                         style: TextStyle(
                           fontSize: 18,
                           fontWeight: FontWeight.bold,
-                          color: Colors.pink,
+                          color: Color(0xFF3579FF),
                         ),
                       ),
                       const SizedBox(height: 10),
