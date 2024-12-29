@@ -13,6 +13,7 @@ ThemeData getApplicationTheme() {
         fontSize: 22,
         color: Colors.white,
         fontFamily: 'Rockwell',
+        fontWeight: FontWeight.normal,
       ),
     ),
   );

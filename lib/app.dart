@@ -9,7 +9,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter BLoC',
+      title: 'Class Work 2',
       theme: getApplicationTheme(),
       home: const DashboardView(), // Use a plain widget for the dashboard
     );

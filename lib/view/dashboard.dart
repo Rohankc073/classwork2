@@ -20,8 +20,8 @@ class DashboardView extends StatelessWidget {
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
-            crossAxisSpacing: 16,
-            mainAxisSpacing: 16,
+            crossAxisSpacing: 20,
+            mainAxisSpacing: 20,
             childAspectRatio: 1.2,
           ),
           itemCount: 3,
@@ -33,8 +33,8 @@ class DashboardView extends StatelessWidget {
             ];
             final icons = [
               Icons.circle_outlined,
-              Icons.percent,
-              Icons.person,
+              Icons.money_outlined,
+              Icons.people_alt_outlined,
             ];
             final destinations = [
               const AreaOfCircleView(),
@@ -51,32 +51,24 @@ class DashboardView extends StatelessWidget {
               },
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(12),
-                  boxShadow: const [
-                    // BoxShadow(
-                    //   color: Colors.white.withOpacity(0.3),
-                    //   spreadRadius: 2,
-                    //   blurRadius: 5,
-                    //   offset: const Offset(0, 3),
-                    // ),
-                  ],
+                  color: Colors.black.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(20),
                 ),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
                       icons[index],
-                      size: 50,
+                      size: 60,
                       color: const Color(0xFF3579FF),
                     ),
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 20),
                     Text(
                       titles[index],
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         fontSize: 18,
-                        fontWeight: FontWeight.bold,
+                        fontWeight: FontWeight.normal,
                         color: Colors.black,
                       ),
                     ),
